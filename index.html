@@ -11,26 +11,42 @@
     <header>
         <h1>Bienvenido a Instapets la red social de animales </h1>
         <p>Durante mucho tiempo los animales han ocupado un espacion importante en el hogar, es momento de que ocupen tambien un lugar en internet, es por eso que hemos creado esta red social, para que tanto sus seres queridos como los pequenos amigos de nuestras mascotas puedan socialibizar, organizar paseos y compartir sus hermosas vidas, que esperas, comienza ya con tu experiencia en instapets</p>
-    </header>   
+    </header> 
+    <iframe src="https://www.google.com/maps/dir/-33.0580939,-71.418062/EVER+PET+Cl%C3%ADnica+y+Hospital+Veterinario+-+Av.+Valpara%C3%ADso+302,+Villa+Alemana,+Valpara%C3%ADso/@-33.0513391,-71.4284934,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x9689d736f281faef:0x2b184a257f6296bb!2m2!1d-71.3690122!2d-33.0439595" frameborder="0"></iframe>  
     <main>
-        <form action="" method="post">
+            <h3>Formulario</h3>
+            <form action="https://formspree.io/f/mwkyywej" method="post">
             <label for="nombre">nombre mascota</label>
-            <input type="text" name="nombre" id="nombre" required>
+            <input type="text" name="nombre" id="nombre" required placeholder="ingrese nombre">
             <br>
             <label for="edad">edad mascota</label>
-            <input type="text" name="edad mascota" id="edad" required>
+            <input type="text" name="edad mascota" id="edad" required placeholder="ingrese edad">
             <br>
             <label for="email">email</label>
-            <input type="email" name="email"    id="email" required>
+            <input type="email" name="email"    id="email" required placeholder="ingrese email">
             <br>
             <label for="contrasena">password</label>
-            <input type="password" name="password" id="password" required>
+            <input type="password" name="password" id="password" required placeholder="ingrese contrasena">
             <br>
             <label for="color">color</label>
-            <input type="color" name="color" id="color" required>
+            <input type="color" name="color" id="color" required placeholder="ingresa color">
+            <br>
+            <select name="razas"   id=""><option value="bullterrier">bullterrier</option><option value="pug">pug</option><option value="pastorAleman">pastor aleman</option></select>
+            <br>
+            <label for="tamano">tamano</label>
+            <input type="radio" name="radio" value="tamano">
+            <input type="radio" name="radio" value="grande">
+            <br>
+            <label for="checkbox">Aceptas las condiciones</label>
+            <input type="checkbox" name="mailing " id="checkbox" value="consent">
+            <br>
+            <label for="consultas">¿Tiene alguna otra duda?</label>
+            <br>
+            <textarea id="consultas" rows="10" cols="30" placeholder="Dejanos tu consulta"></textarea>
             <br>
             <input type="submit" value="Enviar">
-        </form>
-    </main>
-</body>
+            <br>
+            </form>
+        </main>
+    </body>
 </html>
