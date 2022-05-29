@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forms.css">
+    </head>
+    <body>
+        <div id="contenedor">
+         <div class="caja">
+            barra de navegacion
+            </div>
+        <div class="caja">
+            <div class="columna" id="menu">
+                columna MENU
+            </div>
+        <div class="columna" id="main">
+            <h3>ingrese sus datos para pagar</h3>
+            <form action="http://graficamonarca.cl">
+                <p>
+                    <label for="">nombre:</label>
+                    <input type="text" placeholder="ingresa nombre"required>
+                </p>
+                <p>
+                    <label for="">edad:</label>
+                    <input type="number" placeholder="ingresa la edad" required>                    </p>
+                <p>
+                    <label for="">email:</label>
+                    <input type="email" placeholder="ingresa el email"required>
+                </p>
+                <p>
+                    <label for="">contrasena:</label>
+                    <input type="password" placeholder="ingresa password"required>
+                </p>
+                <p>
+                    <label for="">metodo de pago</label>
+                    <select name="metodo_pago" id="">
+                        <option value="webapy">webpay</option>
+                        <option value="paypal">pay pal</option>
+                        <option value="bitcoin">bitcoin</option>
+                        <option value="trueque">trueque</option>
+                    </select>
+                </p>
+                <p><label for="">identificacion</label>
+                <label for="">Cedula de identidad</label>
+                <input type="radio" name="tipo_identificacion" value="cedula" >
+                <label for="">Pasaporte</label>
+                <input type="radio" name="tipo_identificacion" value="pasaporte" >
+                </p>
+                <p>
+                    <label for="">acepta solicitud</label>
+                    <input type="checkbox" name="acepto" id="">
+                </p>
+                <input type="submit" value="enviar!!">
+            </form>
+        </div>
+        <div class="columna" id="publicidad">
+                columna publcidad
+        </div>
+        </div>
+        </div>
+    </div>   
+</body>
+
+
+
+   

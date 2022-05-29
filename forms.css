@@ -1,0 +1,29 @@
+#contenedor{
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+#menu{
+    background-color: bisque;
+    width: 300px;
+    height: auto;
+}
+#main{
+    background-color: blueviolet;
+    text-align: center;
+    width: 380px;
+}
+#publicidad{
+    background-color: chocolate;
+    width: 378px;
+    height: 100%;
+}
+.caja{
+    border: 1px solid black;
+    background-color: aquamarine;
+    padding: 10px;
+}
+.columna{
+    display: inline-block;
+    padding: 2rem;
+}
