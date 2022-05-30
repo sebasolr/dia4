@@ -1,7 +1,7 @@
 #contenedor{
     width: 1280px;
     margin: 0 auto;
-    text-align: center;
+    /* text-align: center; */
 }
 #menu{
     background-color: bisque;
@@ -10,7 +10,7 @@
 }
 #main{
     background-color: blueviolet;
-    text-align: center;
+    /* text-align: center; */
     width: 380px;
 }
 #publicidad{
